@@ -48,13 +48,13 @@ export default function Home() {
 
             <section className="h-auto flex justify-center">
                 <div className="flex flex-col justify-center items-center px-4 lg:flex-row ">
-                    <div className="flex justify-center items-center my-10 gap-6">
+                    <div className="flex justify-center items-center my-10 gap-4 sm:gap-6">
                         <div className="w-1/2">
-                            <img className="w-60 h-72" src="https://images.pexels.com/photos/3460599/pexels-photo-3460599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                            <img className="w-44 h-56 sm:w-60 sm:h-72" src="https://images.pexels.com/photos/3460599/pexels-photo-3460599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="w-1/2 flex flex-col gap-4">
-                            <img className="w-60 h-72" src="https://images.pexels.com/photos/2725675/pexels-photo-2725675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                            <img className="w-60 h-72" src="https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                            <img className="w-44 h-56 sm:w-60 sm:h-72" src="https://images.pexels.com/photos/2725675/pexels-photo-2725675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                            <img className="w-44 h-56 sm:w-60 sm:h-72" src="https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                     </div>
 
@@ -68,24 +68,24 @@ export default function Home() {
 
             <section className="w-full h-auto flex flex-col justify-center items-center py-10">
                 <h1 className="text-2xl font-semibold py-10">Reservas</h1>
-                <div className="w-full flex justify-center px-2 gap-4">
+                <div className="w-full flex justify-center px-4 gap-2 sm:gap-4">
 
                     <div className="w-2/6 flex flex-col justify-around items-center">
-                        <img className="w-full h-52" src="https://images.pexels.com/photos/2607113/pexels-photo-2607113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        <img className="w-full h-44 sm:h-52" src="https://images.pexels.com/photos/2607113/pexels-photo-2607113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         <p className="font-semibold">Aparthotel Stare Miasto</p>
                         <p>Old Town, Poland, Kraków </p>
                         <button className="py-3 px-8 m-4 rounded-md ring-2 ring-slate-200 hover:bg-slate-300">Reserve Já</button>
                     </div>
 
                     <div className="w-2/6 flex flex-col justify-around items-center">
-                        <img className="w-full h-52" src="https://images.pexels.com/photos/2363808/pexels-photo-2363808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        <img className="w-full h-44 sm:h-52" src="https://images.pexels.com/photos/2363808/pexels-photo-2363808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         <p className="font-semibold">Seasons Apartments 06.</p>
                         <p> Terézváros, Hungary, Budapest</p>
                         <button className="py-3 px-8 m-4 rounded-md ring-2 ring-slate-200 hover:bg-slate-300">Reserve Já</button>
                     </div>
 
                     <div className="w-2/6 flex flex-col justify-around items-center">
-                        <img className="w-full h-52" src="https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        <img className="w-full h-44 sm:h-52" src="https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         <p className="font-semibold">Cheval Three Quays</p>
                         <p>United Kingdom, London</p>
                         <button className="py-3 px-8 m-4 rounded-md ring-2 ring-slate-200 hover:bg-slate-300">Reserve Já</button>
