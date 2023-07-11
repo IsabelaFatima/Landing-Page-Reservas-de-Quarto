@@ -2,7 +2,7 @@
 export default function Nav() {
     return (
       <>
-        <nav className='bg-slate-100 flex justify-between py-6 px-10 sm:px-20 ;
+        <nav className='bg-slate-100 flex justify-between items-center py-6 px-10 sm:px-20 ;
   '>
           <div className="font-semibold text-2xl">Logo</div>
   
